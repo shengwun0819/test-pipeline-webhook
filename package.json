@@ -1,0 +1,21 @@
+{
+  "name": "github-issue-test-plan-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub issue webhook that triggers Claude Code to draft a QA test plan and post it back as a comment.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^1.7.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
